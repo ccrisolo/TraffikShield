@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# 🚨 TraffikShield
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**TraffikShield** is a mobile-first AI-powered app designed to help detect and report potentially exploitative or trafficking-related content online. By combining real-time user submissions with natural language processing (NLP), it empowers individuals and communities to fight back against online human trafficking.
 
-## Get started
+![TraffikShield Logo or Screenshot Placeholder]
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- 🔎 **AI Text Analysis**  
+  Automatically scans user-submitted content using OpenAI’s API to flag language patterns associated with exploitation or trafficking.
 
-   ```bash
-   npx expo start
-   ```
+- 🧠 **Anonymous Reporting**  
+  Enables users to safely and privately report suspicious content or activity.
 
-In the output, you'll find options to open the app in a
+- 🌍 **Community-Powered Intelligence**  
+  Combines user insights and AI to enhance accuracy and awareness.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 📊 **Feedback System**  
+  Allows users to verify, flag, or provide context to submitted content.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 📱 **Cross-Platform Mobile App**  
+  Built using **React Native** for both Android and iOS devices.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧠 Why TraffikShield?
+
+Human trafficking is often hidden in plain sight—in chat messages, ads, or online posts. **TraffikShield** empowers everyday users to spot and report potential threats with the help of AI, ensuring faster intervention and broader awareness.
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React Native (Expo)
+- **AI Analysis:** OpenAI GPT via API
+- **Backend (Planned):** Node.js + Express / Firebase / Supabase
+- **Storage (Planned):** MongoDB / PostgreSQL / Firebase
+- **Authentication (Planned):** Auth0 / Firebase Auth
+
+---
+
+## 🛠 Installation
+
+### Prerequisites
+- Node.js
+- Expo CLI
+- OpenAI API Key (stored in `.env`)
+
+### Setup
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/traffikshield.git
+cd traffikshield
+npm install
+expo start
